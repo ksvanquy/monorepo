@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["ES2015"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "references": [{ "path": "../../packages/shared-types" }],
+  "include": ["src"]
+}

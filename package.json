@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "elearning",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start"
+  }
+}
